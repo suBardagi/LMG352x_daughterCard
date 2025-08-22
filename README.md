@@ -1,0 +1,1 @@
+# LMG352x_daughterCard
