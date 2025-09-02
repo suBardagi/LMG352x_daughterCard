@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "lmg352x_mosfet_daughtercard-altium-import")(type "KiCad")(uri "${KIPRJMOD}/lmg352x_mosfet_daughtercard-altium-import.kicad_sym")(options "")(descr ""))
+)

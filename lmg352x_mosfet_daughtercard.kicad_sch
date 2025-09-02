@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d45198bd-ae75-49c9-9bbf-e98107d3ef85")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 45.212 34.036)
+		(size 29.21 18.034)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1ac69ec9-325f-458f-ae3e-513fb99a30c1")
+		(property "Sheetname" "Power"
+			(at 45.212 33.3244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_scheme.kicad_sch"
+			(at 45.212 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lmg352x_mosfet_daughtercard"
+				(path "/d45198bd-ae75-49c9-9bbf-e98107d3ef85"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.974 61.976)
+		(size 28.448 17.018)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8979e9ec-17b8-4c2f-a59e-074651af897b")
+		(property "Sheetname" "Communication"
+			(at 45.974 61.2644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Communication.kicad_sch"
+			(at 45.974 79.5786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lmg352x_mosfet_daughtercard"
+				(path "/d45198bd-ae75-49c9-9bbf-e98107d3ef85"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.482 90.678)
+		(size 27.432 15.494)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "94caf0f2-61b8-47fb-92f9-14e18ce9ea1e")
+		(property "Sheetname" "MOSFET_HVBUS_Connectors"
+			(at 46.482 89.9664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MOSFET.kicad_sch"
+			(at 46.482 106.7566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lmg352x_mosfet_daughtercard"
+				(path "/d45198bd-ae75-49c9-9bbf-e98107d3ef85"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
