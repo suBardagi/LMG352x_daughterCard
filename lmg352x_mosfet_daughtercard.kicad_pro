@@ -80,6 +80,7 @@
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
+        "hole_near_hole": "error",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -144,11 +145,10 @@
       },
       "teardrop_options": [
         {
-          "td_onpthpad": true,
+          "td_onpadsmd": true,
           "td_onroundshapesonly": false,
-          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onvia": true
+          "td_onviapad": true
         }
       ],
       "teardrop_parameters": [
@@ -471,7 +471,7 @@
   },
   "meta": {
     "filename": "lmg352x_mosfet_daughtercard.kicad_pro",
-    "version": 3
+    "version": 1
   },
   "net_settings": {
     "classes": [
@@ -486,7 +486,6 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -504,7 +503,6 @@
         "microvia_drill": 0.1,
         "name": "All Nets",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -522,7 +520,6 @@
         "microvia_drill": 0.1,
         "name": "INGND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -540,7 +537,6 @@
         "microvia_drill": 0.1,
         "name": "PGND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -558,7 +554,6 @@
         "microvia_drill": 0.1,
         "name": "Screw",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -576,7 +571,6 @@
         "microvia_drill": 0.1,
         "name": "VHV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -594,7 +588,6 @@
         "microvia_drill": 0.1,
         "name": "VSWNET",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -603,7 +596,7 @@
       }
     ],
     "meta": {
-      "version": 4
+      "version": 3
     },
     "net_colors": null,
     "netclass_assignments": null,
